@@ -1,0 +1,30 @@
+// Write a program: PetrolReceipt.java
+// Which prints out a receipt for petrol to the screen
+// Receipt must contain your own name [x]
+// must have this format: Title: Aoibhe's Garage
+// Date and adjacent numerical version
+// Liters and decimal
+// Price/Liter and decimal
+// Fuel Total and decimal
+// must create instance of scanner for inputs
+
+import java.util.Scanner;
+
+class PetrolReceipt {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+       // System.out.println("Petrol Receipt");
+        System.out.println("Aoibhe's Garage");
+
+        System.out.println("");
+        System.out.println("20-AUG-2020    14:00PM");
+
+        System.out.println("");
+
+        System.out.println("Litres: 44.00");
+        System.out.println("Price/Liter: 1.37");
+        System.out.println("");
+        System.out.println("Fuel Total: 60.28");
+    }
+}
