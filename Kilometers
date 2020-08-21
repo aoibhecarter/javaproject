@@ -1,0 +1,26 @@
+// write a program Miles.java which prompts the user to enter a number of kilometers
+// the converts the kilometers entered by the user into miles
+// result of conversion should be printed to the screen
+// round the number of kilometers to 2 deciaml points
+// "Aoibhe, enter number of kilometers: x"
+// "x kilometers is x miles"
+// 1km = 0.62miles
+
+import java.util.Scanner;
+public class Kilometers {
+    public static void main(String[] args) {
+
+        double kilometers;
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Aoibhe, enter number of kilometers: ");
+        kilometers = in.nextDouble();
+
+        double miles = kilometers * 1.6; // 2 decimal points
+        System.out.println(kilometers / miles);
+
+    System.out.println("is miles converted from kilometers");
+
+    }
+
+}
