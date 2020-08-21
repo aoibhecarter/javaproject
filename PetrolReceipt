@@ -14,11 +14,11 @@ class PetrolReceipt {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-       // System.out.println("Petrol Receipt");
+        // System.out.println("Petrol Receipt");
         System.out.println("Aoibhe's Garage");
 
         System.out.println("");
-        System.out.println("20-AUG-2020    14:00PM");
+        System.out.println("20-AUG-2020\t14:00PM\n");
 
         System.out.println("");
 
