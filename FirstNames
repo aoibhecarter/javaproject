@@ -1,0 +1,17 @@
+// write a program FirstNames.java which contains a string array with 3 first names assigned to it
+// the program must print out each of the name values to the screen using a loop
+// one of the names assigned must be your own (Aoibhe)
+// "First names in the names array are: "
+// Aoibhe, Gwen, Valerie (the names)
+
+
+public class FirstNames {
+    public static void main(String[] args) {
+        String[] names = {"Aoibhe", "Gwen", "Valerie"};
+        System.out.println("First names in the names array are: ");
+        for (int i = 0; i < names.length; i++) {
+            System.out.println(names[i]);
+        }
+        
+    }
+}
