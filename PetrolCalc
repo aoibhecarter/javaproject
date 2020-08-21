@@ -1,0 +1,31 @@
+// Write a program: PetrolCalc.java
+// Which prompts the user to enter the number of liters of petrol put into a vehicle
+// Receipt must contain your own name [x]
+// it then prints out the total cost of the petrol
+// assume cost is €1.37 per liter
+// "Enter number of liters: 44""
+// Cost <1.37 per liter>: 60.28"
+// enter a number, number is multiplied by 1.37
+// must create instance of scanner for inputs
+
+import java.util.Scanner;
+
+class PetrolCalc {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        double cost = 1.37;
+        double liter = 0.00; // i originally used int here as it was a whole number until i realised i couldn't multiply int x double
+        double result; // variable to store result
+
+        System.out.print("Enter 1.37 <cost per liter>: "); // prompts the user for an input
+        cost = input.nextDouble(); // reads the first number
+        System.out.print("Enter number of liters used: ");
+        liter = input.nextDouble(); // reads in a decimal number
+
+
+        result = cost * liter;
+        System.out.println(cost + " * " + liter + " = " +result);
+
+
+    }
+}
