@@ -1,0 +1,28 @@
+// write a program called CompareNumbers
+// prompts users to enter 2 numbers and checks to see if they are equal
+// the user is then informed if the numbers match or not
+// must contain own name in code, e.g the numbers match Aoibhe
+// "Enter a number", "Enter another number", "The numbers do/do not match, Aoibhe"
+
+
+import java.util.Scanner;
+
+class CompareNumbers {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        int number1;
+        int number2;
+
+        System.out.print("Enter a number: ");
+        number1 = input.nextInt();
+        System.out.print("Enter another number: ");
+        number2 = input.nextInt();
+
+        if(number1 == number2)
+            System.out.println("The numbers do match, Aoibhe");
+        if(number1 != number2)
+            System.out.println("The numbers do not match, Aoibhe");
+
+    }
+}
