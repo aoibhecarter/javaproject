@@ -12,20 +12,14 @@ import java.util.Scanner;
 
 class PetrolCalc {
     public static void main(String[] args) {
+        double cost;
         Scanner input = new Scanner(System.in);
-        double cost = 1.37;
-        double liter = 0.00; // i originally used int here as it was a whole number until i realised i couldn't multiply int x double
-        double result; // variable to store result
+        
+        System.out.println("Enter number of liters of petrol used: ");
+        cost = input.nextDouble();
 
-        System.out.print("Enter 1.37 <cost per liter>: "); // prompts the user for an input
-        cost = input.nextDouble(); // reads the first number
-        System.out.print("Enter number of liters used: ");
-        liter = input.nextDouble(); // reads in a decimal number
-
-
-        result = cost * liter;
-        System.out.println(cost + " * " + liter + " = " +result);
-
-
+        double liter = cost * 1.37;
+        System.out.println(cost * liter + " Cost per liter is: ");
+        
     }
 }
