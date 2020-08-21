@@ -1,0 +1,19 @@
+// write a program called PrintName which creates a variable (String) + assigns your name to it
+// the program should then print the value assigned to the variable to the screen
+// the value must be read from the variable
+// "Your name is Aoibhe"
+// String name = "Aoibhe";
+
+
+
+public class PrintName{
+    public static void main(String[] args){
+
+        String name = "Aoibhe";
+
+        System.out.println("Your name is "+name);
+        // System.out.println("Your name is ".concat("Aoibhe"));
+
+
+    }
+}
