@@ -1,9 +1,10 @@
-// write a program called CompareNumbers
-// prompts users to enter 2 numbers and checks to see if they are equal
-// the user is then informed if the numbers match or not
-// must contain own name in code, e.g the numbers match Aoibhe
-// "Enter a number", "Enter another number", "The numbers do/do not match, Aoibhe"
-
+/*
+- write a program called CompareNumbers
+- prompts users to enter 2 numbers and checks to see if they are equal
+- the user is then informed if the numbers match or not
+- must contain own name in code, e.g the numbers match Aoibhe
+- "Enter a number", "Enter another number", "The numbers do/do not match, Aoibhe"
+*/
 
 import java.util.Scanner;
 
