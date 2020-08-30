@@ -1,6 +1,7 @@
-// write a program called WhileOdd that implements a counter controlled while loop
-// that prints out odd numbers from 1 to 10 inclusive + prints to the screen
-// "Odd numbers, Aoibhe, from 1 to 10 are:"
+/*  write a program called WhileOdd that implements a counter controlled while loop
+- that prints out odd numbers from 1 to 10 inclusive + prints to the screen
+- "Odd numbers, Aoibhe, from 1 to 10 are:"
+*/
 
 
 public class WhileOdd {
