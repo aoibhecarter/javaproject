@@ -1,0 +1,44 @@
+/* write a program called MilesMethod
+- implements a method that converts miles to kilometers
+- it should pass a value, number of miles entered by a user
+- this method should return the result of converting miles passed to it to kilometers
+- the main method should print out the result of this conversion
+- i think i'll write this code using an instance method not static
+- "Aoibhe, please enter number of miles: x"
+- "x miles is x kilometers"
+- 1 mile is 1.6km (to one decimal point to keep it simple)
+ */
+import java.util.Scanner;
+public class MilesMethod {
+    public static void main(String[] args) {
+        MilesMethod m = new MilesMethod();
+        m.PrintMiles();
+        m.ValueKilometers(1.6);
+        m.TotalConversion(1, 1.6);
+
+    }
+    double miles = 1;
+    double kilometers = 1.6;
+    Scanner in = new Scanner(System.in);
+
+    double multiply(double miles, double kilometers) {
+        return miles * kilometers;
+    }
+
+    void PrintMiles() {
+        System.out.println("Aoibhe, please enter number of miles: ");
+     miles = in.nextDouble();
+    }
+    void TotalConversion(double miles, double y){
+       System.out.println("miles = "+miles);
+       System.out.println("kilometers = "+kilometers);
+        System.out.print(kilometers * miles);
+    }
+
+    void ValueKilometers(double miles) {
+        System.out.println("Value of miles passed to kilometers: " +miles);
+
+      double kilometers = 1.6 * miles;
+       System.out.println(kilometers + " is kilometers converted from miles");
+    }
+}
